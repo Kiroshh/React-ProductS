@@ -7,7 +7,7 @@ class Products extends Component {
         return (
             <div style={{
                 margin: "0 auto",
-                width: "500px",
+                width: "50px",
                 height: "50px",
                 textAlign: "justify",
                 marginTop: "10px"
@@ -15,7 +15,7 @@ class Products extends Component {
             }}>
                 {
                     this.props.products.map((product) => {
-                        return <div key={product.sku}style={{
+                        return <div key={product.sku} style={{
                             borderBottom: "10px solid",
                             lineHeight: "15px"
 
